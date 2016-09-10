@@ -1,0 +1,120 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: white;
+    z-index: 1;
+    text-align: center;
+}
+
+#logo {
+    height: 130px;
+}
+
+.jenny-hr {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width: 2px;
+}
+
+#page-selector {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.page-link {
+    color: grey;
+    margin: 0 10px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#content {
+    margin: 180px 20% 125px 20%;
+    font-family: serif;
+    text-align: center;
+}
+
+#contact-info {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    background: white;
+}
+
+#twitter {
+    position: relative;
+    left: -40px;
+}
+
+#fb {
+    position: relative;
+    left: -15px;
+}
+
+#linkedin {
+    position: relative;
+    top: -5px;
+    left: 20px;
+}
+
+#byline {
+    font-size: .7em;
+}
+
+#headshot {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 1000px;
+    background-image: url("/assets/jenny.jpg");
+    background-position: 16px 0px;
+    background-size: 200px;
+    text-align: center;
+}
+
+#hometext {
+    margin-top: 400px;
+}
+
+.portfolio-table {
+    width: 100%;
+}
+
+.portfolio-section {
+    width: 50%;
+    text-align: left;
+    vertical-align: top;
+    border-left: solid 2px black;
+    margin-bottom: 10px;
+}
+
+.portfolio-link {
+    display: block;
+    padding-bottom: 10px;
+    color: grey;
+    font-family: Arial;
+}
+
+.space {
+    height: 20px;
+}
+
+#resume-section {
+    text-align: left;
+}
+
+#education-table {
+    width: 100%;
+    text-align: left;
+}

@@ -1,0 +1,53 @@
+<section id="resume-section">
+    <h1>Summary</h1>
+    <p>Public relations professional responsible for implementing a Fortune 500 company’s marketing plan, currently managing a $20.4 million territory with B2B sales, experience creating and implementing national campaigns for investor owned and non-profit organizations.</p>
+
+    <h1>Related Experience</h1>
+    <div ng-repeat="job in ::jobs">
+        <div><strong>{{::job.position}}</strong> | {{::job.company}}</div>
+        <ul>
+            <li ng-repeat="item in job.items">{{::item}}</li>
+        </ul>
+    </div>
+
+    <h1>Education</h1>
+    <table id="education-table">
+        <tr>
+            <th>School</th>
+            <th>Degree</th>
+            <th>GPA</th>
+            <th>Graduated</th>
+        </tr>
+        <tr>
+            <td>Ball State University</td>
+            <td>Masters of Arts Degree in Public Relations</td>
+            <td>3.88</td>
+            <td>May 2016</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td>Minnesota State University,<br>Mankato</td>
+            <td>B.S. in Mass Communications</td>
+            <td>3.39</td>
+            <td>December 2011</td>
+        </tr>
+    </table>
+    <br>
+    <div><strong>Chapter President</strong> | Sigma Sigma Sigma</div>
+    <ul>
+        <li>Published articles in the national magazine, The Triangle with a circulation over 30,000 print and digital </li>
+        <li>Planned events which increased Tri-Sigma Foundation contribution over 150 percent increase from $900 to $2,300 per year with attendance over 150 people</li>
+        <li>Reported to three levels of advisors: campus, regional, and national </li>
+        <li>Created chapter support plans for crisis management, recruitment/retention, finances and values</li>
+    </ul>
+
+    <h1>Memberships</h1>
+    <div ng-repeat="membership in ::memberships">
+        <div><strong>{{::membership.position}}</strong> | {{::membership.company}}</div>
+        <ul>
+            <li ng-repeat="item in membership.items">{{::item}}</li>
+        </ul>
+    </div>
+</section>
+<br><br>
+<a target="_blank" href="/assets/Jenny Kay Pollock Resume 1-9-16.pdf">Printable Resume</a>

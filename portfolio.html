@@ -1,0 +1,27 @@
+<table id="portfolio-table">
+    <tr>
+        <td class="portfolio-section">
+            <strong>Press Releases</strong>
+            <a class="portfolio-link" ng-repeat="item in pressReleases"
+            href="{{item.link}}" target="_blank">{{item.text}}</a>
+        </td>
+        <td class="portfolio-section">
+            <strong>Writing</strong>
+            <a class="portfolio-link" ng-repeat="item in writing"
+            href="{{item.link}}" target="_blank">{{item.text}}</a>
+        </td>
+    </tr>
+    <tr class="space"></tr>
+    <tr>
+        <td class="portfolio-section">
+            <strong>Design</strong>
+            <a class="portfolio-link" ng-repeat="item in design"
+            href="{{item.link}}" target="_blank">{{item.text}}</a>
+        </td>
+        <td class="portfolio-section">
+            <strong>Academic</strong>
+            <a class="portfolio-link" ng-repeat="item in academic"
+            href="{{item.link}}" target="_blank">{{item.text}}</a>
+        </td>
+    </tr>
+</table>
