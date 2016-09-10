@@ -5,21 +5,21 @@ angular.module('app', ['ui.router'])
     $stateProvider
         .state('home', {
             url: '/home',
-            templateUrl: 'home.html'
+            templateUrl: 'src/templates/home.html'
         })
         .state('portfolio', {
             url: '/portfolio',
-            templateUrl: 'portfolio.html',
+            templateUrl: 'src/templates/portfolio.html',
             controller: portfolioController
         })
         .state('resume', {
             url: '/resume',
-            templateUrl: 'resume.html',
+            templateUrl: 'src/templates/resume.html',
             controller: resumeController
         })
         .state('about', {
             url: '/about',
-            templateUrl: 'about.html'
+            templateUrl: 'src/templates/about.html'
         });
 });
 
