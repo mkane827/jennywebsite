@@ -11,33 +11,12 @@
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-        <script src="//npmcdn.com/angular-ui-router@0.3.1/release/angular-ui-router.js"></script>
+        <script src="//npmcdn.com/angular-ui-router@1.0.0-beta.1/release/angular-ui-router.js"></script>
         <script src="src/app.js" charset="utf-8"></script>
 
         <base href="/">
     </head>
     <body>
-        <div id="header">
-            <img id="logo" src="/assets/header.jpg"/>
-            <hr class="jenny-hr">
-            <div id="page-selector">
-                <a ui-sref="home" class="page-link">Home</a> |
-                <a ui-sref="portfolio" class="page-link">Portfolio</a> |
-                <a ui-sref="resume" class="page-link">Resume</a> |
-                <a ui-sref="about" class="page-link">About</a>
-            </div>
-        </div>
-
-        <div ui-view id="content"></div>
-
-        <div id="contact-info">
-            <hr class="jenny-hr">
-            <a class="page-link" href="tel:19529130293">952 - 913 - 0293</a> | <a class="page-link" href="mailto:jenniferkaypollock@gmail.com?subject=Jenny Rox" target="_blank">jenniferkaypollock@gmail.com</a>
-            <br>
-            <a id="twitter" href="https://twitter.com/jennykaypollock" target="_blank"><img src="/assets/twitter.png"/></a>
-            <a id="fb" href="https://www.facebook.com/jennykaypollock" target="_blank"><img src="/assets/fb.png"/></a>
-            <a id="linkedin" href="https://www.linkedin.com/pub/jenny-kay-pollock/1a/901/81" target="_blank"><img src="/assets/linkedin.png"/></a>
-            <div id="byline" class="page-link">This website was designed by Jenny Kay Pollock and coded by Malcolm Kane.</div>
-        </div>
+        <ui-view></ui-view>
     </body>
 </html>
