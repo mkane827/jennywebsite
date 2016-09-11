@@ -1,0 +1,32 @@
+<div class="Demo">
+    <h1 class="Demo__header">Bye T:mesheets</h1>
+    <form class="AddJob" ng-submit="addJob()">
+        <input type="text" name="addJob" ng-model="newJob"
+        class="AddJob__input" placeholder="Add Job">
+        <button type="submit" class="AddJob__button">Add Job</button>
+    </form>
+
+    <form class="Demo__filter">
+        <input type="text" ng-model="filter"
+        class="Demo__filterInput" placeholder="Filter Jobs">
+    </form>
+
+    <button type="button" ng-click="clearJobs()" class="Demo__clearJobs">Clear Jobs</button>
+
+    <div class="Jobs">
+        <div class="Job" ng-repeat="job in jobs | jobs:filter | orderBy:'stamp':true track by $index"
+            ng-click="toggleTimer(job)"
+            ng-class="{'Job--selected': job.selected}">
+            <div class="Job__circle">
+                <div class="Job__name">
+                    {{ job.name }}
+                </div>
+                <div class="Job__time">
+                    {{ floor(job.time / 60 / 60) }} h
+                    {{ floor(job.time / 60 % 60) }} m
+                    {{ floor(job.time % 60 % 60) }} s
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
