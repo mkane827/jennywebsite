@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 #header {
     position: fixed;
     top: 0;
@@ -117,4 +121,79 @@
 #education-table {
     width: 100%;
     text-align: left;
+}
+
+.Demo {
+    background: #36454F;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    overflow: auto;
+    font-family: Arial;
+    color: white;
+    text-align: center;
+}
+
+.Demo input {
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.Demo button {
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.Demo__header {
+    text-align: center;
+}
+
+.AddJob {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Jobs {
+    margin-top: 20px;
+}
+
+.Job {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+}
+
+.Job__circle {
+    border: solid 3px white;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Job--selected .Job__circle {
+    background: #40c169;
+}
+
+.Job__name {
+    padding: 10px;
+}
+
+.Job__time {
+    padding: 10px;
 }
