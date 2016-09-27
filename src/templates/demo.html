@@ -12,6 +12,7 @@
     </form>
 
     <button type="button" ng-click="clearJobs()" class="Demo__clearJobs">Clear Jobs</button>
+    <button type="button" ng-click="clearJobs()" class="Demo__clearJobs">Download CSV</button>
 
     <div class="Jobs">
         <div class="Job" ng-repeat="job in jobs | jobs:filter | orderBy:'stamp':true track by $index"
