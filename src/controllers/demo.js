@@ -63,7 +63,7 @@ function DemoCtrl($scope, $interval, jobsFilter) {
     $scope.downloadCSV () {
         var downloadString = 'data:text/csv;charset=utf8,Job Name,Time\n';
         var jobs = $scope.jobs.map(function(job) {
-            return [job.name, job.time].join(',')
+            return [job.name, job.time].join(',');
         });
         downloadString += jobs.join('\n');
         window.open(encodeURI(downloadString);
