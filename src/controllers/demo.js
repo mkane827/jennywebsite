@@ -60,12 +60,12 @@ function DemoCtrl($scope, $interval, jobsFilter) {
         localStorage.setItem('jobs', JSON.stringify($scope.jobs));
     }
     
-    $scope.downloadCSV () {
-        var downloadString = 'data:text/csv;charset=utf8,Job Name,Time\n';
+    $scope.downloadCSV = function () {
+        var downloadString = 'data:text/csv;charset=utf8,Job Name,Time (seconds)\n';
         var jobs = $scope.jobs.map(function(job) {
             return [job.name, job.time].join(',');
         });
         downloadString += jobs.join('\n');
-        window.open(encodeURI(downloadString);
+        window.open(encodeURI(downloadString));
     };
 }
