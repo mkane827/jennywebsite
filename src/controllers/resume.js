@@ -1,10 +1,21 @@
 app.controller('ResumeCtrl', function($scope) {
     $scope.jobs = [
         {
+            position: 'Account Manager',
+            company: 'Trepoint',
+            items: [
+                'Managed the development of an annual strategic marketing plan for a consumer packaged goods (CPG) client with an $12,000,000 annual media budget',
+                'Managed Trepoint’s influencer marketing program across various industries to receive an average of 6.5 million views with an engagement rate of 3.8 percent resulting in 17,605 percent ROI for the client’s media value',
+                'Managed client relationships, developed growth marketing strategies and developed client education programs',
+                'Ran social media communities for two brands totaling 548,000 members focusing on user acquisition',
+                'Coordinated clients, vendors and internal teams to implement annual communication plans including management of budgets, traditional and digital media, shopper marketing, design, SEM/SEO and social media'
+            ]
+        },
+        {
             position: 'Territory Manager/Trade Marketing',
             company: 'RJ Reynolds',
             items: [
-                'Currently managing a territory with over $20,400,000 per year B2B sales focusing on SMBs',
+                'Managed a territory with over $20,400,000 per year B2B sales focusing on SMBs',
                 'Used data sets to determine best contract choices and business opportunities for over 150 retail outlets',
                 'Focused on successfully handling multiple projects including three new product launches in 18 months',
                 'Implemented a national marketing plan for a Fortune 500 company in regional and local outlets',
@@ -42,7 +53,7 @@ app.controller('ResumeCtrl', function($scope) {
             position: 'Social Media Intern',
             company: 'Four51',
             items: [
-                'Selected, approved and edited all content for the 30-day, monthly digital publication calendar for Four51’s FanTools (SaaS product) an online order management system for B2B eCommerce and social media management',
+                'Managed end-to-end content curation for the 30-day, monthly digital publication calendar for FanTools (SaaS product) an online order management system for B2B eCommerce and social media management',
                 'Implemented social media user acquisition and user engagement. The Twitter product handle went from 100 to 700 followers, a 600 percent increase over 4 months the company handle went from 70 to 250 a 360 percent increase over two months',
                 'Developed and produced daily blog posts about social media using WordPress publishing over 30 posts using performance metrics (Google Analytics and Optimizely) to measure success'
             ]
@@ -97,17 +108,17 @@ app.controller('ResumeCtrl', function($scope) {
 
     $scope.memberships = [
         {
-            position: 'National Programming Team',
-            company: 'Sigma Sigma Sigma National Sorority',
+            position: 'Programs Committee',
+            company: 'Public Relations Society of America | San Francisco Chapter',
             items: [
-                'Work collaboratively with national staff and volunteers to plan events and curriculum that advance the strategic initiatives and promote the values of the organization'
+                'Worked collaboratively with 22 board members to plan monthly industry events'
             ]
         },
         {
-            position: 'Programs Committee',
-            company: 'Public Relations Society of America | Minneapolis Chapter',
+            position: 'National Programming Team',
+            company: 'Sigma Sigma Sigma National Sorority',
             items: [
-                'Worked collaboratively with 12 programming team members'
+                'Worked collaboratively with national staff and volunteers to plan events and curriculum that advance the strategic initiatives and promote the values of the organization'
             ]
         }
     ];
