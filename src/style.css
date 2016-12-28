@@ -99,8 +99,11 @@ body {
     width: 50%;
     text-align: left;
     vertical-align: top;
-    border-left: solid 2px black;
     margin-bottom: 10px;
+}
+
+.portfolio-section-border {
+    border-left: solid 2px black;
 }
 
 .portfolio-link {

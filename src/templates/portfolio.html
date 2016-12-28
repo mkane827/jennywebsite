@@ -1,27 +1,35 @@
 <table id="portfolio-table">
     <tr>
         <td class="portfolio-section">
-            <strong>Press Releases</strong>
-            <a class="portfolio-link" ng-repeat="item in pressReleases"
-            href="{{item.link}}" target="_blank">{{item.text}}</a>
+            <div class="portfolio-section-border">
+                <strong>Press Releases</strong>
+                <a class="portfolio-link" ng-repeat="item in pressReleases"
+                href="{{item.link}}" target="_blank">{{item.text}}</a>
+            </div>
         </td>
         <td class="portfolio-section">
-            <strong>Writing</strong>
-            <a class="portfolio-link" ng-repeat="item in writing"
-            href="{{item.link}}" target="_blank">{{item.text}}</a>
+            <div class="portfolio-section-border">
+                <strong>Design</strong>
+                <a class="portfolio-link" ng-repeat="item in design"
+                href="{{item.link}}" target="_blank">{{item.text}}</a>
+            </div>
         </td>
     </tr>
     <tr class="space"></tr>
     <tr>
         <td class="portfolio-section">
-            <strong>Design</strong>
-            <a class="portfolio-link" ng-repeat="item in design"
-            href="{{item.link}}" target="_blank">{{item.text}}</a>
+            <div class="portfolio-section-border">
+                <strong>Writing</strong>
+                <a class="portfolio-link" ng-repeat="item in writing"
+                href="{{item.link}}" target="_blank">{{item.text}}</a>
+            </div>
         </td>
         <td class="portfolio-section">
-            <strong>Academic</strong>
-            <a class="portfolio-link" ng-repeat="item in academic"
-            href="{{item.link}}" target="_blank">{{item.text}}</a>
+            <div class="portfolio-section-border">
+                <strong>Academic</strong>
+                <a class="portfolio-link" ng-repeat="item in academic"
+                href="{{item.link}}" target="_blank">{{item.text}}</a>
+            </div>
         </td>
     </tr>
 </table>
