@@ -200,3 +200,53 @@ body {
 .Job__time {
     padding: 10px;
 }
+
+.Vestly {
+    align-items: center;
+    background: linear-gradient(to top right, #3A4585, #6EB2C3, #E7EFF5);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+}
+
+.Vestly__headline {
+    color: #8D809E;
+    font-family: Impact;
+}
+
+.Vestly__wrapper {
+    background: #E7EFF5;
+    box-shadow: 0 0 5px 0px grey;
+    padding: 50px;
+}
+
+.Vestly__countdown {
+    align-items: center;
+    background: #8D809E;
+    color: #E7EFF5;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.Vestly__timeBox {
+    display: inline-block;
+    font-size: 44px;
+    padding: 10px;
+    text-align: center;
+}
+
+.Vestly__timeLabel {
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.Vestly__colon {
+    display: inline-block;
+    font-size: 20px;
+}

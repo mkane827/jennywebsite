@@ -36,5 +36,10 @@ var app = angular.module('app', ['ui.router'])
             url: '/demo',
             templateUrl: 'src/templates/demo.html',
             controller: 'DemoCtrl'
+        })
+
+        .state('vestly', {
+            url: '/vestly',
+            component: 'vestly'
         });
 });
