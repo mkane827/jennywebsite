@@ -1,6 +1,18 @@
 app.controller('ResumeCtrl', function($scope) {
     $scope.jobs = [
         {
+            position: 'Customer Success – Community Manager',
+            company: 'Blippar',
+            items: [
+                'Develop and execute scalable support for 9.5K users focused on onboarding, consulting, troubleshooting, retention and growth for our SaaS augmented reality tool, Blippbuilder',
+                'Worked cross functionally to deliver user insights to engineering and design teams to help shape the product',
+                'Leveraged scalable user education including a knowledge base and webinar to increase project creation by 65 percent and increase blipp creation by 30 percent',
+                'Increased repeat logins by 80 percent by leveraging a new in app new messaging strategy on Intercom.',
+                'Consulted on the computer vision API onboarding process',
+                'Managed onboarding and continued relationships with annual reoccurring revenue (ARR) client base'
+            ]
+        },
+        {
             position: 'Account Manager',
             company: 'Trepoint',
             items: [
