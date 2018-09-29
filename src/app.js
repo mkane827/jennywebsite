@@ -14,12 +14,6 @@ var app = angular.module('app', ['ui.router'])
             url: '/home',
             templateUrl: 'src/templates/home.html'
         })
-        .state('portfolio', {
-            parent: 'main',
-            url: '/portfolio',
-            templateUrl: 'src/templates/portfolio.html',
-            controller: 'PortfolioCtrl'
-        })
         .state('about', {
             parent: 'main',
             url: '/about',
